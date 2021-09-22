@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      function checkDataType(a){
+    if ( a === null || a===undefined)
+    {
+        return "Enter a Value";
+    }
+    if(Array.isArray(a))
+    {
+        return "It's array"
+    }
+    return typeof a
+    }
+    a=["q","3",3];
+    console.log(checkDataType(a));
+
+    </script>
+</body>
+</html>
