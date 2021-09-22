@@ -1,1 +1,1 @@
-##Finding data type of given input using js function
+## Finding data type of given input using js function
